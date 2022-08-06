@@ -1,0 +1,148 @@
+
+contact{
+    position: relative;
+    margin-left: 550px;
+    top: 0;
+    font-size: 40px;
+    border-bottom:solid 4px#ffc409;
+    display: inline-block;
+    text-align: center;
+
+}
+  
+  
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+  }
+  .contact{
+    position: relative;
+     min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+  }
+  .contact .content{
+    max-width: 800px;
+    text-align: center;
+  }
+  .contact .content h2{
+    font-size: 36px;
+    font-weight: 700;
+    color:#ffc409;
+  }
+  .contact .content p{
+    font-weight: 300;
+    color:black;
+  }
+  .container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .container .contactinfo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .container .contactinfo .box{
+    position: relative;
+    right: 320px;
+    top: 125px;
+  
+    display: flex;
+  }
+  .container .contactinfo .box .icon{
+    min-width: 60px;
+    height: 60px;
+    background: #ffc409;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+  }
+  .container .contactinfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: black;
+    flex-direction: column;
+    font-weight: 300;
+  
+  }
+  .container .contactinfo .box .text h3{
+    font-weight: 500;
+    color:#ffc409;
+  }
+  .contactform{
+    width: 100%;
+  position: relative;
+  left: 100px;
+  /* top: 0; */
+    color:#ffc409;
+    bottom: 130px;
+    
+  }
+  .contactform h2{
+    font-size: 30px;
+    color:#ffc409;
+    font-weight: 500;
+  }
+  
+  .contactform .inputbox{
+    position: relative;
+    width: 100%;
+    /* margin-top: 10px; */
+  }
+  .contactform .inputbox input,
+  .contactform .inputbox textarea
+  {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #ffc409;
+    outline: none;
+    resize: none;
+  }
+  
+  
+  .contactform .inputbox input[type="submit"]
+  {
+    width: 100px;
+    background:#ffc409 ;
+    color: black;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+  }
+  
+  .thankyou{
+    text-align: center;
+    margin-bottom: 220px;
+    margin-top: 210px;
+    font-size: 70px;
+  
+    
+    text-decoration: underline #ffc409;
+    
+  }
+
+  .location{
+    position: relative;
+    margin-left: 20px;
+    top: 0;
+    font-size: 40px;
+    border-bottom:solid 4px#ffc409;
+    display: inline-block;
+    text-align: center;
+  }

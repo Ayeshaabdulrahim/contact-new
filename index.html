@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historical Monument || Contact us </title>
+    
+
+         <!-- font awesome -->
+        <link rel="stylesheet" href="font/css_2/all.min.css">
+        <!-- css -->
+        <link rel="stylesheet" href="style.css">
+ 
+
+        <script> 
+
+          $(document).ready(function() {
+              $("#basic-form").validate();
+             });
+ 
+ 
+             $(document).ready(function(){
+                   $("input").focus(function(){
+                       $(this).css({"text-decoration":"none"}); });
+                        $("input,select,textarea").blur(function(){ 
+                             if($(this).val()==""){ $(this).css({"border-bottom":"1px solid red"});}
+                             else{$(this).css({"border-bottom":"none"}) } }); });
+           
+           </script>
+</head>
+<body>
+
+
+  <!-- heading -->
+<br>
+<br>
+<br>
+
+    <CONTACT>Contact us </CONTACT>
+  
+  
+
+<div class="container-fluid container">
+
+  <div class="row">
+
+    <div class="col-md-6">
+
+      <div class="contactinfo">
+
+        <!-- address -->
+    
+        <div class="box">
+          <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+          <div class="text">
+            <h3>Address</h3>
+            <p>Main Korangi Road,<br>Karachi,Pakistan</p>
+          </div>
+        </div>
+        <br>
+        <br>
+        <!-- phone -->
+        <div class="box">
+          <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+          <div class="text">
+            <h3>Phone</h3>
+            <p>507-475-6094</p>
+          </div>
+        </div>
+        <br>
+        <br>
+      <!-- email -->
+      <div class="box">
+        <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+        <div class="text">
+          <h3>Email</h3>
+          <p>historicalmonument@gmail.com</p>
+        </div>
+      </div>
+      </div>
+
+    </div>
+
+    <div class="col-md-6">
+
+      <div class="contactform">
+
+        <form id="basic-form">
+
+          <h2>Send Message</h2>
+          <!-- name -->
+          <div class="inputbox">
+            <input type="text" required placeholder="Full name">
+            
+          </div>
+          <!-- email -->
+          <div class="inputbox">
+            <input type="email"  required placeholder="Email">
+            
+          </div>
+          <!-- message -->
+          <div class="inputbox">
+            <input type="text"  required placeholder="Type your message...">
+            
+          </div>
+          <!-- submit -->
+          <div class="inputbox">
+            <input type="submit"  value="Submit" >
+          </div>
+
+    
+    
+        </form>
+      </div>
+      
+    </div>
+
+    
+ 
+
+  </div>
+  </div>
+
+  
+</div>
+  
+</section>
+
+<br>
+<br>
+<!-- <hr style="background-color:#ffc409; height: 1px;"> -->
+<br>
+<center>
+
+  
+  <h2 class="location">Location</h2>
+  <br>
+  <br>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12179.681926617352!2d67.07793428887184!3d24.828267992214055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1635850139414!5m2!1sen!2s" width="1320" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</center>
+
+
+
+
+    
+    
+    </div>
+    <script src="app.js"></script>
+    
+</body>
+</html>
